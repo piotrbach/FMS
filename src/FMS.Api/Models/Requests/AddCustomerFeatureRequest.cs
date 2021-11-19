@@ -1,4 +1,4 @@
-﻿namespace FMS.Api.Models
+﻿namespace FMS.Api.Models.Requests
 {
     public class AddCustomerFeatureRequest
     {

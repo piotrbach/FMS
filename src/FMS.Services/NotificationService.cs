@@ -2,7 +2,6 @@
 {
     public class NotificationService: INotificationService
     {
-        
     }
 
     public interface INotificationService

@@ -1,4 +1,4 @@
-﻿using FMS.Api.Models;
+﻿using FMS.Api.Models.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FMS.Api.Controllers
@@ -7,7 +7,6 @@ namespace FMS.Api.Controllers
     [ApiController]
     public class CustomerFeatureController : ControllerBase
     {
-        // POST: api/Customer
         [HttpPost]
         public ActionResult Save([FromBody] AddCustomerFeatureRequest request)
         {

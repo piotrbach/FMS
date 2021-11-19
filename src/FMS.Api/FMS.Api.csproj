@@ -15,4 +15,8 @@
       <ProjectReference Include="..\FMS.Services\FMS.Services.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Models\Messages" />
+    </ItemGroup>
+
 </Project>
